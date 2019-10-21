@@ -1,0 +1,42 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+a {  text-decoration: none; }
+a:visited, a:link, a:active { text-decoration: none; color:black; }
+ul {
+    margin: 0;
+}
+
+.global {
+    font-size: 32px;
+}
+
+.div5 {
+    background-color: #74fa1c;
+}
+.div2 {
+    background-color: #cc1cfa;
+}
+
+.div3 {
+    background-color: #faed1c;
+}
+
+.div4 {
+    background-color:aqua;
+}
+
+.div6 {
+    background-color: #71dcff;
+}
+
+.div1 {
+    background-color: #f52020;
+}
+
+@media only screen and (max-width: 767px) {
+.global {
+    font-size: 20px;
+}   
+}
