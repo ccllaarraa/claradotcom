@@ -13,26 +13,30 @@ ul {
 }
 
 .div5 {
-    background-color: #74fa1c;
+    background-color: limegreen;
 }
 .div2 {
-    background-color: #cc1cfa;
+    background-color: darkorchid;
 }
 
 .div3 {
-    background-color: #faed1c;
+    background-color: gold;
 }
 
 .div4 {
     background-color:aqua;
 }
 
+.div7 {
+    background-color: royalblue;
+}
+
 .div6 {
-    background-color: #71dcff;
+    background-color:sandybrown
 }
 
 .div1 {
-    background-color: #f52020;
+    background-color: greenyellow;
 }
 
 @media only screen and (max-width: 767px) {
