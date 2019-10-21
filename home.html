@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+    <img id="image"/>
+    <!-- <div class="works">
+        <img src='./assets/Critics.png'>
+        <img src='./assets/Critics2.png'>
+        <img src='./assets/Critics3.png'>
+
+        <img src='./assets/DDW.jpg'>
+
+        <img src='./assets/Foam.png'>
+        <img src='./assets/Foam_1.png'>
+        <img src='./assets/Foam_2.png'>
+
+        <img src="assets/Legs_1.jpg">
+        <img src="assets/Legs_2.tif">
+
+        <img src="assets/Sauce_1.tif">
+        <img src="./assets/Sauce_2.tif">
+        <img src="./assets/Sauce_3.tif">
+
+        <img src="./assets/gra.jpg">
+        <img src="assets/gra_2.jpg">
+        <img src="assets/gra_3.jpg">
+        <img src="assets/gra_4.jpg">
+        <img src="assets/gra_5.jpg">
+        <img src="assets/gra_6.jpg">
+        <img src="assets/gra_7.JPG">
+
+        <img src="assets/sted.png">
+        <img src="assets/sted2.png">
+        <img src="assets/sted3.png">
+        <img src="assets/sted4.png">
+
+        <img src="assets/theses_2.png">
+        <img src="assets/thesis_1.jpg">
+
+        <img src="assets/wheels.png">
+        <img src="assets/wheels2.png">
+        <img src="assets/wheels3.png">
+
+    </div> -->
+
+<script>
+   
+
+      var contents=new Array()
+contents[0]='<img src="./assets/Critics.png">'
+contents[1]='<img src="./assets/Critics2.png">'
+contents[2]='<img src="./assets/Critics3.png">'
+contents[3]='<img src="./assets/DDW.jpg">'
+contents[4]='<img src="./assets/Foam.png">'
+contents[5]='<img src="./assets/Foam_1.png">'
+contents[6]='<img src="./assets/Foam_2.png">'
+contents[7]='<img src="./assets/Legs_1.jpg">'
+contents[8]='<img src="./assets/Legs_2.tif">'
+contents[9]='<img src="./assets/Sauce_1.tif">'
+contents[10]='<img src="./assets/Sauce_2.tif">'
+contents[11]='<img src="./assets/Sauce_3.tif">'
+contents[12]='<img src="./assets/gra.jpg">'
+contents[13]='<img src="./assets/gra_2.jpg">'
+contents[14]='<img src="./assets/gra_3.jpg">'
+contents[15]='<img src="./assets/gra_4.jpg">'
+contents[16]='<img src="./assets/gra_5.jpg">'
+contents[17]='<img src="./assets/gra_6.jpg">'
+contents[18]='<img src="./assets/gra_7.JPG">'
+contents[19]='<img src="./assets/gra_3.jpg">'
+contents[20]='<img src="./assets/sted.png">'
+contents[21]='<img src="./assets/sted2.png">'
+contents[22]='<img src="./assets/sted3.png">'
+contents[23]='<img src="./assets/sted4.png">'
+contents[24]='<img src="./assets/theses_2.png">'
+contents[25]='<img src="./assets/thesis_1.jpg">'
+contents[26]='<img src="./assets/wheels2.png">'
+contents[27]='<img src="./assets/wheels.png">'
+contents[28]='<img src="./assets/wheels3.png">'
+
+   
+var i=0
+var random
+var spacing="<br>"
+while (i<contents.length){
+    random=Math.floor(Math.random()*contents.length)
+    if (contents[random]!="selected"){
+        document.write(contents[random]+spacing)
+        contents[random]="selected"
+        i++
+    }
+}
+  </script>
+    
+</body>
+</html>
