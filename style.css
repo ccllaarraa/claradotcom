@@ -6,38 +6,40 @@ a {  text-decoration: none; }
 a:visited, a:link, a:active { text-decoration: none; color:black; }
 ul {
     margin: 0;
+    list-style-type: square;
 }
 
 .global {
     font-size: 32px;
 }
-
-.div5 {
-    background-color: limegreen;
+.div1 {
+    background-color: greenyellow;
 }
+
 .div2 {
-    background-color: darkorchid;
+    background-color: tomato;
 }
 
 .div3 {
-    background-color: gold;
+    background-color: bisque;
 }
 
 .div4 {
     background-color:aqua;
 }
 
-.div7 {
-    background-color: royalblue;
+.div5 {
+    background-color: limegreen;
 }
 
 .div6 {
     background-color:sandybrown
 }
-
-.div1 {
-    background-color: greenyellow;
+.div7 {
+    background-color: royalblue;
 }
+
+
 
 @media only screen and (max-width: 767px) {
 .global {
