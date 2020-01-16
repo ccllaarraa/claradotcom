@@ -13,37 +13,40 @@ ul {
     font-size: 32px;
 }
 .div1 {
-    background-color: bisque;
+    background-color: yellowgreen;
 }
 
 .div2 {
-    background-color: bisque;
+    background-color: yellowgreen;
 }
 
 .div3 {
-    background-color: tomato;
+    background-color:pink;
 }
 
 .div4 {
-    background-color:tomato;
+    background-color: yellowgreen;
 }
 
 .div5 {
-    background-color: bisque;
+    background-color:pink;
 }
 
 .div6 {
-    background-color:lime;
+    background-color:tomato;
 }
 .div7 {
-    background-color: tomato;
+    background-color:pink;
 }
 
 .div8 {
-    background-color: bisque;
+    background-color: yellowgreen;
     cursor: pointer;
 }
 
+.project-imgs > * {
+    
+}
 
 @media only screen and (max-width: 767px) {
 .global {

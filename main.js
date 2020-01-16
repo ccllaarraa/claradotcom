@@ -117,3 +117,4 @@ for (var p = 0; p < l; p++) {
 document.body.appendChild(newImage);
 
 }
+
