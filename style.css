@@ -1,39 +1,42 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    margin: 0;
+    padding: 0;
 }
 a {  text-decoration: none; }
 a:visited, a:link, a:active { text-decoration: none; color:black; }
 ul {
     margin: 0;
-    list-style-type: square;
+    list-style-type: inside;
 }
 
 .global {
     font-size: 32px;
+   
 }
 .div1 {
-    background-color: yellowgreen;
+    background-color: pink;
 }
 
 .div2 {
-    background-color: yellowgreen;
+    background-color: pink;
 }
 
 .div3 {
-    background-color:pink;
+    background-color:rgb(218, 183, 32);
 }
 
 .div4 {
-    background-color: yellowgreen;
+    background-color: rgb(218, 183, 32);
 }
 
-.div5 {
-    background-color:pink;
+.div5 , .div9{
+    background-color:rgb(218, 183, 32);
 }
 
 .div6 {
-    background-color:tomato;
+    background-color:pink;
 }
 .div7 {
     background-color:pink;
