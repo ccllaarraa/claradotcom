@@ -16,25 +16,29 @@ ul {
    
 }
 .div1 {
-    background-color: pink;
+    background-color: yellowgreen;
 }
 
 .div2 {
-    background-color: pink;
+    background-color: yellowgreen;
 }
 
 .div3 {
-    background-color:rgb(218, 183, 32);
+    background-color: pink;
 }
 
 .div4 {
-    background-color: rgb(218, 183, 32);
+    background-color: pink;
 }
 
-.div5 , .div9{
-    background-color:rgb(218, 183, 32);
+.div5 {
+    background-color:yellowgreen;
 }
-
+.div9 {
+    text-align: center;
+    animation: background 1s infinite;
+    animation-delay: .5s;
+}
 .div6 {
     background-color:pink;
 }
@@ -46,10 +50,20 @@ ul {
     background-color: yellowgreen;
     cursor: pointer;
 }
+.div10 {
+   animation: background 1s infinite;
+    cursor: pointer;
+    text-align: center;
+}
 
 .project-imgs > * {
     
 }
+@keyframes background {
+   0% {background-color: yellowgreen;}
+    50% {background-color: pink;}
+   100% {background-color: yellowgreen;}
+  }
 
 @media only screen and (max-width: 767px) {
 .global {
