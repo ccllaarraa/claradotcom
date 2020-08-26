@@ -16,41 +16,51 @@ ul {
    
 }
 .div1 {
+    padding: 5px 5px 4px 5px;
     background-color: lavenderblush;
 }
 
 .div2 {
+    padding: 5px 5px 4px 5px;
     background-color: yellowgreen;
 }
 
 .div3 {
+    padding: 5px 5px 4px 5px;
     background-color: gold;
 }
 
 .div4 {
+    padding: 5px 5px 4px 5px;
     background-color: pink;
 }
 
 .div5 {
+    padding: 5px 5px 4px 5px;
     background-color:salmon;
 }
 .div9 {
+    padding: 5px 5px 4px 5px;
     text-align: center;
     animation: background 1s infinite;
     animation-delay: .5s;
 }
 .div6 {
+    padding: 5px 5px 4px 5px;
     background-color:pink;
 }
 .div7 {
+    padding: 5px 5px 4px 5px;
     background-color:salmon;
 }
 
 .div8 {
+    padding: 5px 5px 4px 5px;
     background-color: forestgreen;
     cursor: pointer;
 }
 .div10 {
+    padding: 5px 5px 4px 5px;
    animation: background 1s infinite;
     cursor: pointer;
     text-align: center;
