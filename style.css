@@ -12,11 +12,11 @@ ul {
 }
 
 .global {
-    font-size: 32px;
+    font-size: 18px;
    
 }
 .div1 {
-    background-color: yellowgreen;
+    background-color: lavenderblush;
 }
 
 .div2 {
@@ -24,7 +24,7 @@ ul {
 }
 
 .div3 {
-    background-color: pink;
+    background-color: gold;
 }
 
 .div4 {
@@ -32,7 +32,7 @@ ul {
 }
 
 .div5 {
-    background-color:yellowgreen;
+    background-color:salmon;
 }
 .div9 {
     text-align: center;
@@ -43,11 +43,11 @@ ul {
     background-color:pink;
 }
 .div7 {
-    background-color:pink;
+    background-color:salmon;
 }
 
 .div8 {
-    background-color: yellowgreen;
+    background-color: forestgreen;
     cursor: pointer;
 }
 .div10 {
