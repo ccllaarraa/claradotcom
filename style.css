@@ -17,12 +17,12 @@ ul {
 }
 .div1 {
     padding: 5px 5px 4px 5px;
-    background-color: lavenderblush;
+    background-color: #d7ab5b;
 }
 
 .div2 {
     padding: 5px 5px 4px 5px;
-    background-color: yellowgreen;
+    background-color: #d7ab5b;
 }
 
 .div3 {
@@ -37,13 +37,13 @@ ul {
 
 .div5 {
     padding: 5px 5px 4px 5px;
-    background-color:salmon;
+    background-color:pink;
 }
 .div9 {
     padding: 5px 5px 4px 5px;
     text-align: center;
-    animation: background 1s infinite;
-    animation-delay: .5s;
+    animation: background 2s infinite;
+    animation-delay: 1s;
 }
 .div6 {
     padding: 5px 5px 4px 5px;
@@ -51,17 +51,17 @@ ul {
 }
 .div7 {
     padding: 5px 5px 4px 5px;
-    background-color:salmon;
+    background-color:#a56e3fbf;
 }
 
 .div8 {
     padding: 5px 5px 4px 5px;
-    background-color: forestgreen;
+    background-color: #b6733a;
     cursor: pointer;
 }
 .div10 {
     padding: 5px 5px 4px 5px;
-   animation: background 1s infinite;
+   animation: background 2s infinite;
     cursor: pointer;
     text-align: center;
 }
@@ -70,9 +70,9 @@ ul {
     
 }
 @keyframes background {
-   0% {background-color: yellowgreen;}
-    50% {background-color: pink;}
-   100% {background-color: yellowgreen;}
+   0% {background-color: #d79c18;}
+    50% {background-color: gold;}
+   100% {background-color: #d79c18;}
   }
 
 @media only screen and (max-width: 767px) {
