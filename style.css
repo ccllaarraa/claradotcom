@@ -1,8 +1,10 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
+  
+    font-family: 'Cherry Swash', cursive;
+    color: #32424e;
     margin: 0;
     padding: 0;
+   
 }
 body::-webkit-scrollbar {
     display: none;
@@ -14,10 +16,14 @@ body {
     scrollbar-width: none;  /* Firefox */
   }
 a {  text-decoration: none; }
-a:visited, a:link, a:active { text-decoration: none; color:black; }
+a:visited, a:link, a:active { text-decoration: none; color:#4e04a9; }
 ul {
     margin: 0;
     list-style-type: inside;
+}
+a:hover {
+    background-color: #dcbfbf;
+    transition: 0.3s;
 }
 
 .global {
@@ -26,17 +32,21 @@ ul {
 }
 .div1 {
     padding: 5px 5px 4px 5px;
-    background-color: #d7ab5b;
+    background-color: #aa65b68a;
+    color: #32424e;
+}
+.div1 a {
+    color: #4e04a9;
 }
 
 .div2 {
     padding: 5px 5px 4px 5px;
-    background-color: #d7ab5b;
+    background-color: #7de781;
 }
 
 .div3 {
     padding: 5px 5px 4px 5px;
-    background-color: gold;
+    background-color: #7de781;
 }
 
 .div4 {
@@ -46,12 +56,21 @@ ul {
 
 .div5 {
     padding: 5px 5px 4px 5px;
-    background-color:pink;
+    background-color:#a56e3fbf;;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+font-size: 22px;
+text-align: center;
+letter-spacing: 0.5px;
+}
+.div5 a {
+    color: #fb28c9;
 }
 .div9 {
+    color: #32424e;
     padding: 5px 5px 4px 5px;
     text-align: center;
-    animation: background 2s infinite;
+    animation: background 4s infinite;
     animation-delay: 1s;
 }
 .div6 {
@@ -61,16 +80,17 @@ ul {
 .div7 {
     padding: 5px 5px 4px 5px;
     background-color:#a56e3fbf;
+    color: white;
 }
 
 .div8 {
     padding: 5px 5px 4px 5px;
-    background-color: #b6733a;
+    background-color: #4dcc52;
     cursor: pointer;
 }
 .div10 {
     padding: 5px 5px 4px 5px;
-   animation: background 2s infinite;
+   animation: background 3s infinite;
     cursor: pointer;
     text-align: center;
 }
@@ -79,9 +99,9 @@ ul {
     
 }
 @keyframes background {
-   0% {background-color: #d79c18;}
-    50% {background-color: gold;}
-   100% {background-color: #d79c18;}
+   0% {background-color: #7e59e8;}
+    50% {background-color: pink;}
+   100% {background-color: #7e59e8;}
   }
 
 @media only screen and (max-width: 767px) {
