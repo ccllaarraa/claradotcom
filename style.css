@@ -91,17 +91,17 @@ letter-spacing: 0.5px;
 .div8 {
     padding: 5px 5px 4px 5px;
     background-color: #4dcc52;
-    cursor: pointer;
+   
 }
 .div10 {
     padding: 5px 5px 4px 5px;
    animation: background 3s infinite;
-    cursor: pointer;
+   
     text-align: center;
 }
 
 .project-imgs > * {
-    
+    cursor: normal;
 }
 @keyframes background {
    0% {background-color: #7e59e8;}
