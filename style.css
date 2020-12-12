@@ -4,6 +4,7 @@ body {
     color: #32424e;
     margin: 0;
     padding: 0;
+    text-align: center;
    
 }
 body::-webkit-scrollbar {
@@ -42,11 +43,13 @@ a:hover {
 .div2 {
     padding: 5px 5px 4px 5px;
     background-color: #7de781;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .div3 {
     padding: 5px 5px 4px 5px;
     background-color: #7de781;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .div4 {
@@ -58,8 +61,8 @@ a:hover {
     padding: 5px 5px 4px 5px;
     background-color:#a56e3fbf;;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
 text-align: center;
 letter-spacing: 0.5px;
 }
@@ -76,11 +79,13 @@ letter-spacing: 0.5px;
 .div6 {
     padding: 5px 5px 4px 5px;
     background-color:pink;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .div7 {
     padding: 5px 5px 4px 5px;
     background-color:#a56e3fbf;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .div8 {
@@ -105,6 +110,9 @@ letter-spacing: 0.5px;
   }
 
 @media only screen and (max-width: 767px) {
+    body {
+        text-align: left;
+    }
 .global {
     font-size: 20px;
 }   
