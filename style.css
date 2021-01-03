@@ -108,8 +108,7 @@ letter-spacing: 0.5px;
     50% {background-color: pink;}
    100% {background-color: #7e59e8;}
   }
-
-@media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 767px) {
     body {
         text-align: left;
     }
@@ -119,4 +118,4 @@ letter-spacing: 0.5px;
 img {
     max-width: 333px;
 }
-}
+  }
