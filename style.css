@@ -73,7 +73,7 @@ letter-spacing: 0.5px;
     color: #32424e;
     padding: 5px 5px 4px 5px;
     text-align: center;
-    animation: background 4s infinite;
+    animation: background 7s infinite;
     animation-delay: 1s;
 }
 .div6 {
@@ -95,7 +95,7 @@ letter-spacing: 0.5px;
 }
 .div10 {
     padding: 5px 5px 4px 5px;
-   animation: background 3s infinite;
+   animation: background 5s infinite;
    
     text-align: center;
 }
