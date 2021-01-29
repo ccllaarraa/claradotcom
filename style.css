@@ -100,6 +100,13 @@ letter-spacing: 0.5px;
     text-align: center;
 }
 
+.divalert {
+    padding: 5px 5px 4px 5px;
+    animation: background2 1s infinite;
+    color: white;
+     text-align: center;
+}
+
 .project-imgs > * {
     cursor: normal;
 }
@@ -108,6 +115,14 @@ letter-spacing: 0.5px;
     50% {background-color: pink;}
    100% {background-color: #7e59e8;}
   }
+
+
+
+@keyframes background2 {
+    0% {background-color: #ff0000;}
+     50% {background-color: rgb(255, 153, 0);}
+    100% {background-color: #ff0000;}
+   }
   @media only screen and (max-width: 767px) {
     body {
         text-align: left;
