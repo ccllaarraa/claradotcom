@@ -33,7 +33,7 @@ a:hover {
 }
 .div1 {
     padding: 5px 5px 4px 5px;
-    background-color: #aa65b68a;
+    background-color: #a98aae8a;
     color: #32424e;
 }
 .div1 a {
@@ -42,24 +42,24 @@ a:hover {
 
 .div2 {
     padding: 5px 5px 4px 5px;
-    background-color: #7de781;
+    background-color: #C6DAA2;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .div3 {
     padding: 5px 5px 4px 5px;
-    background-color: #7de781;
+    background-color: #C6DAA2;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .div4 {
     padding: 5px 5px 4px 5px;
-    background-color: pink;
+    background-color: #FDDEE1;
 }
 
 .div5 {
     padding: 5px 5px 4px 5px;
-    background-color:#a56e3fbf;;
+    background-color:#4cb24fbf;;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -78,19 +78,19 @@ letter-spacing: 0.5px;
 }
 .div6 {
     padding: 5px 5px 4px 5px;
-    background-color:pink;
+    background-color:#FDDEE1;
     font-family: Arial, Helvetica, sans-serif;
 }
 .div7 {
     padding: 5px 5px 4px 5px;
-    background-color:#a56e3fbf;
+    background-color:#b08c6dbf;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .div8 {
     padding: 5px 5px 4px 5px;
-    background-color: #4dcc52;
+    background-color: #fadf2182;
    
 }
 .div10 {
@@ -111,9 +111,9 @@ letter-spacing: 0.5px;
     cursor: normal;
 }
 @keyframes background {
-   0% {background-color: #7e59e8;}
-    50% {background-color: pink;}
-   100% {background-color: #7e59e8;}
+   0% {background-color: #FDDEE1;}
+    50% {background-color: #F8F0A5;}
+   100% {background-color: #FDDEE1;}
   }
 
 
