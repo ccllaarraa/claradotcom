@@ -33,7 +33,7 @@ a:hover {
 }
 .div1 {
     padding: 5px 5px 4px 5px;
-    background-color: #a98aae8a;
+    background-color: #ed90fc;
     color: #32424e;
 }
 .div1 a {
@@ -42,13 +42,13 @@ a:hover {
 
 .div2 {
     padding: 5px 5px 4px 5px;
-    background-color: #C6DAA2;
+    background-color: #ebe40e;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .div3 {
     padding: 5px 5px 4px 5px;
-    background-color: #C6DAA2;
+    background-color: #0ebc13;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -59,7 +59,7 @@ a:hover {
 
 .div5 {
     padding: 5px 5px 4px 5px;
-    background-color:#4cb24fbf;;
+    background-color:#0ebc13;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -77,20 +77,21 @@ line-height: 30px;
     text-align: center;
     animation: background 7s infinite;
     animation-delay: 1s;
+    background-color: #ff7c40
 }
 .div6 {
     padding: 5px 5px 4px 5px;
-    background-color:#FDDEE1;
+    background-color:#ff8cec;
     font-family: Arial, Helvetica, sans-serif;
 }
 .div7 {
     padding: 5px 5px 4px 5px;
-    background-color:#b08c6dbf;
+    background-color:#934909;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 .updated {
-    background-color:#f295a2bf;
+    background-color:#ed90fc;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -98,7 +99,7 @@ line-height: 30px;
 
 .div8 {
     padding: 5px 5px 4px 5px;
-    background-color: #fadf2182;
+    background-color: #0ebc13;
    
 }
 .div10 {
@@ -122,9 +123,9 @@ line-height: 30px;
     cursor: normal;
 }
 @keyframes background {
-   0% {background-color: #FDDEE1;}
-    50% {background-color: #F8F0A5;}
-   100% {background-color: #FDDEE1;}
+   0% {background-color: #ff7c40;}
+    50% {background-color: #fa74e4;}
+   100% {background-color: #ff7c40;}
   }
 
 
