@@ -22,6 +22,10 @@ $(document).ready(function() {
     $(".yall").each(function(){
         $(this).addClass(classes[~~(Math.random()*classes.length)]);
     });
+
+    $(".images-page").each(function(){
+        $(this).addClass(classes[~~(Math.random()*classes.length)]);
+    });
    
 
 
@@ -30,26 +34,32 @@ $(document).ready(function() {
 $('.btn_nav').click(function() {
        
     console.log('click')
-    $('.very-right').addClass('animate_content');
+     $('.very-right').addClass('animate_content');
     $('.images-page').fadeOut(100).delay(2800).fadeIn();
   
-    setTimeout(function() {
-      $('.images-page').removeClass('animate_content');
-    }, 3200);
+    // setTimeout(function() {
+    //   $('.images-page').removeClass('animate_content');
+    // }, 3200);
   
     //remove fadeIn class after 1500ms
-    setTimeout(function() {
-      $('.images-page').removeClass('fadeIn');
-    }, 1500);
+
+    // setTimeout(function() {
+    //   $('.images-page').removeClass('fadeIn');
+    // }, 1500);
   
   });
   
   // on click show page after 1500ms
-  $('.btn_link').click(function() {
-    setTimeout(function() {
-      $('.btn_link').addClass('fadeIn');
-    }, 1500);
-  });
+//   $('.btn_link').click(function() {
+//     setTimeout(function() {
+//       $('.btn_link').addClass('fadeIn');
+//     }, 1500);
+//   });
+
+
 });
 
   
+
+
+
