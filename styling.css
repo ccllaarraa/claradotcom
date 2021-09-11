@@ -22,10 +22,11 @@ a:hover {
 ::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 7px;
+    background: transparent;
   }
   ::-webkit-scrollbar-thumb {
     border-radius: 4px;
-    background-color: #9f9ec7d0;
+    background-color: #ffdf00;
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
   }
 
@@ -77,8 +78,8 @@ letter-spacing: 0.3px;
 
 /* very-left */
 .very-left {
-    min-width: 330px;
-    background-color: #2FFF8F;
+   min-width: 260px;;
+    background-color: #74d08c;
     display: flex;
     flex-direction: column;
 }
@@ -86,22 +87,24 @@ letter-spacing: 0.3px;
 min-height: 100px;
 max-height: 450px;
 min-height: 200px;
-background-color: #A162EB;
+background-color: #c390ff;
 padding: 20px;
 overflow-y: scroll;
 overflow: -moz-scrollbars-vertical; 
+border-bottom: 1px dashed red;
+
 }
 /* very center */
 .very-center {
     min-width: 250px;
     padding: 20px;
     height: -webkit-fill-available;
-    background-color: #EB9DD0;
+    background-color: #e1fd9d;
     overflow-y: scroll;
     color: #3a3636;
 }
 .latest-links {
-    background-color: #EB9DD0;
+  
 }
 .more-info {
     background-color: #EB9DD0;
@@ -115,7 +118,7 @@ overflow: -moz-scrollbars-vertical;
     width: fit-content;
 }
 .usefullinks {
-    background-color: #2FFF8F;
+    /* background-color: #74d08c; */
     padding: 20px;
     overflow-y: scroll;
     color: #3a3636;
@@ -153,14 +156,19 @@ li {
 /* very-right */
 
 .very-right {
-    min-width: 250px;
-    background-color: #FA23EA;
+    min-width: 100px;
+    background-color: #ff5e00;
     cursor: pointer;
+   
+}
+.very-right:hover {
+    background: #fd7f36;
 }
 .animate_content {
  width: 100vw !important;
- animation: 8s linear animate;
+ animation: 2.3s linear animate;
 }
+
 
 @keyframes animate {
   0%
@@ -170,29 +178,47 @@ li {
     {transform: scale(10, 10)}
 }
 
-.fadeIn {
-  z-index: 10;
-}  
 
 /* images */
+.images {
+    overflow-x: hidden;
+}
 .images-page {
-    background-color: #FA23EA;
+    background-color: #fd7f36;
     margin: 0;
     width: 100%;
-    animation: mymove 2s;
+    animation: mymove 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode:forwards;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    background-color: #fd7f36;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    animation: mymove2 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
 }
 
 .captions {
     max-width: 500px;
     margin: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 @keyframes mymove {
-    from {background-color: #FA23EA;}
-    to {background-color: rgb(223, 223, 223);}
+    from {background-color: #fd7f36;   }
+    to {background-color: rgb(223, 223, 223); }
+  }
+  @keyframes mymove2 {
+    from {background-color: #fd7f36; }
+    to {background-color: transparent; }
   }
 .clarisa2 img {
     max-width: 700px;
@@ -201,19 +227,19 @@ li {
     margin: 10px 20px;
 }
 .clarisa2 img:nth-child(2) {
- margin-left: 100px;
+ /* margin-left: 100px; */
 }
 .clarisa2 img:nth-child(3) {
-    margin-left: 200px;
+    /* margin-left: 200px; */
    }
    .clarisa2 img:nth-child(4) {
-    margin-left: 400px;
+    /* margin-left: 400px; */
    }
    .clarisa2 img:nth-child(5) {
-    margin-left: 500px;
+    /* margin-left: 500px; */
    }
    .clarisa2 img:nth-child(6) {
-    margin-left: 300px;
+    /* margin-left: 300px; */
    }
 
 
@@ -232,20 +258,20 @@ li {
 
 
 .clarisa1 img:nth-child(4) {
-margin-left: 200px;
+/* margin-left: 200px; */
 }
 .clarisa1 img:nth-child(4) {
-margin-left: 400px;
+/* margin-left: 400px; */
 }
 .clarisa1 img:nth-child(5) {
-margin-left: 50px;
+/* margin-left: 50px; */
 }
 .clarisa1 img:nth-child(6) {
-margin-left: 300px;
+/* margin-left: 300px; */
 }
 
 .myweb img{
- width: 900px;
+ width: 80%;
  margin: 20px;
 
 }
@@ -259,11 +285,11 @@ margin-left: 300px;
     margin: 10px 20px;
 }
 .ddw  .cam {
-    margin-left: 300px;
+    /* margin-left: 300px; */
     width: 300px;
 }
 .ddw .street {
-    margin-right: 0px;
+    /* margin-right: 0px; */
 }
 
 /* graphic */
@@ -324,9 +350,9 @@ margin-left: 300px;
     margin: 10px 20px;
 }
 .tereza img:nth-child(3) {
-    max-width: 400px;
-    margin: 20px  0px;
-    position: absolute;
+    max-width: 600px;
+    margin: 20px 0px;
+    position: relative;
     right: 30px;
 }
 .sndo img {
@@ -360,39 +386,104 @@ margin-left: 300px;
 
 .back-btn {
     position: fixed;
-    height: 15px;
+    height: 100vh;
     cursor:  w-resize!important;
-    width: 100%;
+    width: 30px;
    border-bottom: none;
     z-index: 10;
 }
 .btn {
     display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 .btn:hover {
     opacity: 0.5;
 }
 .btn div:nth-of-type(1) {
-    background:#A162EB;
-    width: 30%;
-    height: 15px;
+    background:#c390ff;
+    height: 30%;
+    width: 100%;
 
 }
 .btn div:nth-of-type(2) {
-    background:#2FFF8F;
-    width: 20%;
-    height: 15px;
+    background:#74d08c;
+    height: 20%;
+    width: 100%;
    
 }
 .btn div:nth-of-type(3) {
-    background:#EB9DD0;
-    width: 35%;
-    height: 15px;
-   
+    background:#e1fd9d;
+    height: 35%;
+    width: 100%;
 }
 .btn div:nth-of-type(4) {
-    background: #FA23EA;
-    width: 15%;
-    height: 15px;
+    background: #ff5e00;
+    height: 15%;
+    width: 100%;
  
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .images::-webkit-scrollbar {
+    background: #dfdfdf;
+    -webkit-appearance: none;
+    width: 10px;
+  }
+  /* .images::-webkit-scrollbar-thumb {
+          border-radius: 4px;
+  background-color: #8fe2ac;
+  }  */
+
+  /* refresh*/
+
+
+  .refresh {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    bottom: 00;
+    padding: 20px;
+    bottom: 00;
+    right: 0;
+    transition        : 1.0s ease all;
+	-moz-transition   : 1.0s ease all;
+	-webkit-transition: 1.0s ease all;
+    cursor: pointer;
+    filter: drop-shadow(2px 5px 5px #ffb48c);
+
+  }
+  .refresh:hover  {
+        transform               : rotate(180deg);
+        -moz-transform          : rotate(180deg);
+        -webkit-transform       : rotate(180deg);
+        transform-origin        : center;
+        -moz-transform-origin   : center;
+        -webkit-transform-origin: center;
+    
+        transition              : transform 1.3s ease all;
+        -moz-transition         : -moz-transform 1.3s ease all;
+        -webkit-transition      : -webkit-transform 1.3s ease all;
+    
+}
+
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width: 0;
+}
+.home {
+    opacity: 0;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s; /* Safari */
 }
