@@ -568,6 +568,15 @@ button:hover > span {
         display: block;
         margin: 20px;
     }
+    .refresh {
+        width: 100px;
+        height: 100px;
+    
+    }
+    button span {
+        bottom: 62px;
+        right: 40px;
+    }
 
 }
 
