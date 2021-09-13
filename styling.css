@@ -21,11 +21,11 @@ a:hover {
 }
 ::-webkit-scrollbar {
     -webkit-appearance: none;
-    width: 7px;
+    width: 8px;
     background: transparent;
   }
   ::-webkit-scrollbar-thumb {
-    border-radius: 4px;
+    border-radius: 0px;
     background-color: #ffdf00;
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
   }
@@ -182,6 +182,7 @@ li {
 /* images */
 .images {
     overflow-x: hidden;
+    background: rgb(223, 223, 223);
 }
 .images-page {
     background-color: #fd7f36;
@@ -218,7 +219,7 @@ li {
   }
   @keyframes mymove2 {
     from {background-color: #fd7f36; }
-    to {background-color: transparent; }
+    to {background-color: transparent; left: -9999px;  }
   }
 .clarisa2 img {
     max-width: 700px;
@@ -251,10 +252,10 @@ li {
     margin: 10px 20px;
 }
 
-.clarisa1 {
-    display: flex;
-    flex-direction: column;
-}
+    .clarisa1 {
+        display: flex;
+        flex-direction: column;
+    }
 
 
 .clarisa1 img:nth-child(4) {
@@ -382,7 +383,10 @@ li {
     max-width: 550px;
     margin: 10px 20px;
 }
-
+.see img {
+    max-width: 85vw;
+    margin: 10px 20px;
+}
 
 .back-btn {
     position: fixed;
@@ -444,7 +448,7 @@ li {
 
 
   .refresh {
-    position: absolute;
+    position: fixed;
     width: 138px;
     height: 138px;
     bottom: 00;
@@ -472,6 +476,7 @@ li {
     
 }
 
+
 button {
     background: none;
 	color: inherit;
@@ -486,4 +491,133 @@ button {
     opacity: 0;
     transition: opacity 1s;
     -webkit-transition: opacity 1s; /* Safari */
+}
+
+button span {
+    display: none;
+    width: auto;
+    color: black;
+    bottom: 76px;
+    position: fixed;
+    height: 15px;
+    background: #ffff00;
+    z-index: 10000;
+    right: 61px;
+    padding: 4px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:hover > span {
+    display: block;
+}
+.images-title {
+    display: none;
+}
+
+
+/* responsive */
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media only screen and (max-width: 770px) {
+    .very-right {
+        width: 100%;
+        min-width: unset;
+    }
+    .very-center {
+        width: auto;
+        overflow-y: unset;
+        min-width: unset;
+    }
+    .very-left {
+        width: 100%;
+        min-width: unset;
+    }
+    .very {
+        height: auto;
+    }
+    .yall {
+        height: auto;
+        flex-direction: column;
+        position: relative;
+    }
+    .usefullinks > * {
+        visibility: visible;
+    }
+    .very-center > * {
+        visibility: visible;
+    }
+    .usefullinks {
+        display: flex;
+    }
+    .usefullinks div {
+        width: calc(100% / 3);
+    }
+    .usefullinks div:nth-of-type(1),  .usefullinks div:nth-of-type(2) {
+        margin-right: 20px;
+    }
+    button span {
+        display: block;
+    }
+    .btn_nav {
+        height: 60px;
+    }
+    .images-title {
+        display: block;
+        margin: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .usefullinks {
+            flex-wrap: wrap;
+    }
+    .usefullinks div {
+        width: 43%;
+    }
+    .div3 {
+        margin-top: 20px;
+    }
+    .btn {
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        width: 100vw;
+    }
+    .btn > div {
+        height: 30px;
+    }
+    .btn div:nth-of-type(1) {
+        height: 30px;
+    }
+    .btn div:nth-of-type(2) {
+        height: 30px;
+    }
+    .btn div:nth-of-type(3) {
+        height: 30px;
+    }
+    .btn div:nth-of-type(4) {
+        height: 30px;
+    }
+    .captions {
+        max-width: 90%;
+        margin: 20px;
+        margin-top: 50px;
+    }
+    .project img, .thesis img:nth-child(1), .tereza{
+        max-width: 90%;
+        width: 90%;
+    }
+    .grad {
+        max-width: 90vw;
+    }
+    .tereza img:nth-child(3) {
+        max-width: 90%;
+        margin: 20px 0px;
+        position: relative;
+        right: auto;
+    }
 }

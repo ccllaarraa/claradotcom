@@ -5,16 +5,18 @@ $(document).ready(function() {
     var second = Math.floor((Math.random() * 45) + 1);
     var third = 100 - (first + second);
 
-	$(".very-left").width( first + "%");
-    $(".very-right").width( second + "%");
-    $(".very-center").width( third + "%");
-
-
+    if ($(window).width() > 770) {
+            $(".very-left").width( first + "%");
+            $(".very-right").width( second + "%");
+            $(".very-center").width( third + "%");
+     
+            var fourth = Math.floor((Math.random() * 45) + 1);
+            $(".mynameis").height( fourth + "%");
+    }
     // height random name
-
-    var fourth = Math.floor((Math.random() * 45) + 1);
-    $(".mynameis").height( fourth + "%");
-
+   
+   
+   
     // font random
 
     var classes = ["no-time", "swiss-affair", "mono-ohno"];
