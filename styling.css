@@ -30,6 +30,11 @@ a:hover {
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
   }
 
+  img{
+    background-image: none;
+    background-color: #e1fd9d;
+  }
+
 .yall {
  display: flex;
  align-items: center;
@@ -314,6 +319,7 @@ li {
 .contrib1 img {
     max-width: 650px;
     margin: 10px 20px;
+    background: transparent;
 }
 .contrib3 {
     display: flex;
@@ -322,6 +328,7 @@ li {
 .contrib3 img {
     max-width: 650px;
     margin: 10px 20px;
+    background: transparent;
 }
 .imgaes-page a {
     cursor: alias;
@@ -353,6 +360,7 @@ li {
 .tereza img {
     max-width: 800px;
     margin: 10px 20px;
+    background: transparent;
 }
 .tereza img:nth-child(3) {
     max-width: 600px;
