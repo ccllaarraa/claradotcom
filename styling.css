@@ -472,6 +472,7 @@ li {
 	-webkit-transition: 1.0s ease all;
     cursor: pointer;
     filter: drop-shadow(2px 5px 5px #ffb48c);
+    background-color: transparent;
 
   }
   .refresh:hover  {
