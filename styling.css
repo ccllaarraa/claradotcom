@@ -226,6 +226,8 @@ li {
     display: flex;
     flex-direction: column;
     margin: 10px 20px;
+    background-image: none;
+    background-color: #c390ff;
 }
 .clarisa2 img:nth-child(2) {
  /* margin-left: 100px; */
@@ -250,6 +252,8 @@ li {
     display: flex;
     flex-direction: column;
     margin: 10px 20px;
+    background-image: none;
+    background-color: #74d08c;
 }
 
     .clarisa1 {
