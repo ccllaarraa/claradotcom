@@ -25,9 +25,11 @@ $(document).ready(function() {
         $(this).addClass(classes[~~(Math.random()*classes.length)]);
     });
 
-    $(".images-page").each(function(){
+    $(".images").each(function(){
         $(this).addClass(classes[~~(Math.random()*classes.length)]);
     });
+   
+
    
 
 
