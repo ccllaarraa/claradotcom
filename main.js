@@ -45,8 +45,7 @@ $('.btn_nav').click(function() {
   // play sound
   var audio = $("#mySoundClip")[0];
   var audio2 = $("#mySoundClip2")[0];
-  var audio3 = $("#mySoundClip3")[0];
-
+ 
 $(".refresh").mouseenter(function() {
   audio.play();
 });  
@@ -55,6 +54,7 @@ $(".refresh").mouseenter(function() {
 
 
 });
+
 
 
 
