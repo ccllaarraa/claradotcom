@@ -44,6 +44,10 @@ a:hover {
  height: 100vh;
 }
 
+.home {
+    overflow: hidden;
+}
+
 .very-right:hover .imagestitle {
     display: block;
 }
@@ -54,7 +58,9 @@ a:hover {
     margin: 20px;
  
 }
-
+.secret-imgs {
+    display: none;
+}
 
 /* fonts */
 
@@ -568,6 +574,9 @@ button:hover > span {
 }
 
 @media only screen and (max-width: 770px) {
+    .home {
+        overflow: auto;
+    }
     .very-right {
         width: 100%;
         min-width: unset;

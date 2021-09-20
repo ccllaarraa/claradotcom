@@ -36,16 +36,22 @@ $(document).ready(function() {
 
 // transition page
 $('.btn_nav').click(function() {
-    
     console.log('click')
      $('.very-right').toggleClass('animate_content');
-
-   
-
+     audio2.play();
    
   });
-  
-  
+
+  // play sound
+  var audio = $("#mySoundClip")[0];
+  var audio2 = $("#mySoundClip2")[0];
+  var audio3 = $("#mySoundClip3")[0];
+
+$(".refresh").mouseenter(function() {
+  audio.play();
+});  
+
+
 
 
 });
