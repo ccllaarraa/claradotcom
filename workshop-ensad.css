@@ -1,0 +1,38 @@
+.intro {
+    width: 490px;
+    font-size: 17px;
+    line-height: 25px;
+    margin: auto;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 43px;
+    margin-bottom: 7px;
+}
+
+.coul1 {
+   color: #4272ff;
+}
+.coul2 {
+    color: #a92020;
+ }
+ .coul3 {
+    color: #bf9e32;
+ }
+ .coul4 {
+    color: #20a524;
+ }
+ .coul5 {
+    color: #7828c7;
+ }
+
+ a {
+    color: #7828c7;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+ }
+
+ a:hover {
+     background-color: chartreuse;
+ }
