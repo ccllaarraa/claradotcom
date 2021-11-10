@@ -36,3 +36,9 @@
  a:hover {
      background-color: chartreuse;
  }
+
+ .town {
+   width: 96vw;
+   margin-top: 200px;
+   margin-bottom: 100px;
+ }
