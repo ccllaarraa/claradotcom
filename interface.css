@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+}.coul1 {
+    color: #4272ff;
+ }
+ .coul2 {
+     color: #a92020;
+  }
+  .coul3 {
+     color: #bf9e32;
+  }
+  .coul4 {
+     color: #20a524;
+  }
+  .coul5 {
+     color: #7828c7;
+  }
+  .title {
+    font-size: 40px;
+    line-height: 43px;
+    margin-bottom: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.ctn {
+    margin: auto;
+    max-width: 500px;
+}
+a:hover {
+    background-color: chartreuse;
+}
+a {
+    color: rgb(77, 79, 227);
+}
