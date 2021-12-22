@@ -66,8 +66,8 @@ a:hover {
 
 .no-time {
 font-family: 'Times New Roman', Times, serif;
-font-size: 13px;
-line-height: 18px;
+font-size: 12px;
+line-height: 17px;
 letter-spacing: 0.3px;
 }
 .no-time .links-title {
@@ -75,8 +75,8 @@ letter-spacing: 0.3px;
     }
 .swiss-affair {
  font-family:  Helvetica, Arial, sans-serif;
- font-size: 13px;
- line-height: 17px;
+ font-size: 12px;
+ line-height: 16px;
  letter-spacing: 0.5px;
 }
 .swiss-affair .links-title{
@@ -84,8 +84,8 @@ letter-spacing: 0.3px;
 }
 .mono-ohno {
  font-family: monospace;
- font-size: 12px;
- line-height: 16px;
+ font-size: 11px;
+ line-height: 15px;
 }
 .mono-ohno a {
     text-transform: uppercase;
