@@ -1,0 +1,164 @@
+html {
+   
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+   
+
+}
+a:visited { color: inherit; }
+a {
+    color:inherit;
+    text-decoration: none;
+    border-bottom: dashed 1px;
+    cursor: pointer ;
+}
+a:hover {
+    background: #12f51b85;
+}
+ul {
+    margin: 0;
+    list-style-type: inside;
+    list-style-type:none;
+    padding-left: 0px;
+}
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #187806;
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
+
+
+  /* here custom starts */
+
+.background {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    z-index: -1;
+}
+.room {
+    font-size: 14px;
+    line-height: 1.35;
+    font-family: 'Times New Roman', Times, serif;
+}
+.shape {
+    position: fixed;
+}
+.shape1 {
+    left: 301px;
+    top: 30px;
+}
+.shape2{
+    top: 250px;
+    left: 200px;
+    position: fixed;
+}
+.shape3 {
+    top: 250px;
+    left: 300px;
+
+    position: fixed;
+}
+
+.shape4 {
+    top: 120px;
+    right: 300px;
+   
+}
+.shape5 {
+    bottom: 101px;
+    right: 200px;
+}
+
+.welcome div {
+    color: #e100ff;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 25px 30px 55px 5px;
+}
+.clara {
+    background-color: #fcfcfc;
+}
+.gd {
+    background-color: #fcfcfc;
+}
+.projectslink{
+    background-color: #fcfcfc;
+}
+.all {
+    background-color: #fcfcfc;
+}
+.text {
+    background-color: #fcfcfc;
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 25px 30px 38px 42px;
+    position: fixed;
+
+}
+.text1 {
+    left: 327px;
+    top: 30px;
+    color: #6300bb;
+}
+.text2 {
+    top: 342px;
+    left: 20px;
+    padding-bottom: 20px;
+    color: #0f880e;
+}
+.text3 {
+   width: 200px;
+    padding-bottom: 20px;
+    color: #0f880e;
+    position: relative;
+}
+.textblocks {
+    position: fixed;
+    top: 176px;
+    right: 230px;
+    display: flex;
+    flex-direction: column;
+}
+.textblocks1 {
+    position: fixed;
+    top: 338px;
+    left: 340px;
+    display: flex;
+    flex-direction: column;
+}
+.text4, .text5, .text6 {
+position: relative;
+width: 350px;
+color: rgb(21, 21, 220);
+}
+.text7 {
+    color: rgb(204, 154, 16);
+    bottom: 56px;
+    right: 20px;
+}
+.text {
+    display: none
+}
+.shape1:hover  ~  .text1,
+.shape2:hover  ~  .text2,
+.shape3:hover  ~  .text3,
+.shape4:hover  ~  .textblocks > .text,
+.shape5:hover  ~  .text7
+{
+    display: block;
+}
+.text1:hover, .text2:hover, .text3:hover, .textblocks:hover, .text7:hover {
+    display: block;
+}
+.block {
+    display: block
+}
