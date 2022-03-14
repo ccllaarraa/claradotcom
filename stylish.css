@@ -107,18 +107,19 @@ ul {
 .text1 {
     left: 327px;
     top: 30px;
-    color: #6300bb;
+    color: #a200ff;
 }
 .text2 {
     top: 342px;
     left: 20px;
     padding-bottom: 20px;
     color: #0f880e;
+    min-width: 200px;
 }
 .text3 {
    width: 200px;
     padding-bottom: 20px;
-    color: #0f880e;
+    color: #c00303;
     position: relative;
 }
 .textblocks {
@@ -137,7 +138,7 @@ ul {
 }
 .text4, .text5, .text6 {
 position: relative;
-width: 350px;
+width: 290px;
 color: rgb(21, 21, 220);
 }
 .text7 {
@@ -150,15 +151,24 @@ color: rgb(21, 21, 220);
 }
 .shape1:hover  ~  .text1,
 .shape2:hover  ~  .text2,
-.shape3:hover  ~  .text3,
+.shape3:hover  ~  .textblocks1 > .text ,
 .shape4:hover  ~  .textblocks > .text,
 .shape5:hover  ~  .text7
 {
     display: block;
 }
-.text1:hover, .text2:hover, .text3:hover, .textblocks:hover, .text7:hover {
+.text1:hover, .text2:hover, .text3:hover, .textblocks:hover>text,.textblocks1:hover, .text7:hover {
     display: block;
 }
 .block {
     display: block
+}
+
+
+/* projects
+ */
+.projects {
+ width: calc(100vw - 20px);
+    margin: 10px;
+    font-size: 12.5px;
 }
