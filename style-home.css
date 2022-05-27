@@ -1,0 +1,390 @@
+body {
+   margin: 0px;
+   background-color: rgb(248, 254, 207);
+   
+}
+/* hide scrollbar but allow scrolling */
+html {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+html::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+div:hover, .header:hover {
+    filter: drop-shadow(2px 3px 11px rgb(190, 188, 199));
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #b7b7b7;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    left: 84px;
+    width: 30vw;
+    height: 80px;
+    background-color: #e3e3e3;
+}
+
+.main {
+  height: 2250px;
+}
+
+.menu {
+    background-color: white;
+    width: 100%;
+    height: 490px;
+    padding-left: 15px;
+    position: absolute;
+    top: 80px;
+    z-index: -1;
+}
+.left-column {
+    background-color: #998ee4;
+    width: 100%;
+    height: 100px;
+    padding-left: 15px;
+    position: absolute;
+    top: 555px;
+    z-index: 0;
+
+}
+.sub-menu1 {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70vw;
+    height: 40px;
+    background-color: chartreuse;
+    z-index: 1;
+}
+.sub-menu2 {
+    position: absolute;
+    top: 240px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70vw;
+    height: 40px;
+    background-color: chartreuse;
+    z-index: 1;
+}
+
+.sub-menu3 {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40vw;
+    height: 40px;
+    background-color: chartreuse;
+    z-index: 1;
+}
+.sub-sub-menu1 {
+    position: absolute;
+    top: 420px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 30vw;
+    height: 10px;
+    background-color: #b8db96;
+    z-index: 1;
+}
+.sub-sub-menu2 {
+    position: absolute;
+    top: 440px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 30vw;
+    height: 10px;
+    background-color: #b8db96;
+    z-index: 1;
+}
+.sub-sub-menu3 {
+    position: absolute;
+    top: 460px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 16vw;
+    height: 10px;
+    background-color: #b8db96;
+    z-index: 1;
+}
+.horiz-ctn {  
+    width: 100vw;
+    height: 80px;
+    position: absolute;
+    top: 655px;
+    left: 0;
+    display: flex;
+
+}
+.baby-vert {
+    background: #340065;
+    width: calc(100vw / 72);
+    height: 80px;
+}
+.horiz-ctn2 {  
+    width: 54vw;
+    height: 80px;
+    position: absolute;
+    top: 695px;
+    background: #b2b2b2;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+
+.scrollbar-ctn {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 20px;
+    background-color: blueviolet;
+    z-index: 120;
+}
+.scrollbar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 200px;
+    width: 20px;
+    background-color: rgb(209, 177, 239);
+    z-index: 121;
+}
+
+.cross1 {
+    position: absolute;
+    width: 50px;
+    height: 8px;
+    top: 15px;
+    right: 45px;
+   
+}
+.cross2 {
+    position: absolute;
+    width: 50px;
+    height: 8px;
+    top: 16px;
+    right: 46px;
+  
+}
+
+
+.columns {
+    width: 30vw;
+    background-color: pink;
+    height: auto;
+    margin: 20px 10px;
+}
+.burger1{
+position: absolute;
+width: 50px;
+height: 8px;
+top: 15px;
+left: 15px;
+background-color: black;
+}
+.burger2{
+    position: absolute;
+    width: 50px;
+    height: 8px;
+    top: 30px;
+    left: 15px;
+    background-color: black; 
+}
+.burger3{
+    position: absolute;
+    width: 50px;
+    height: 8px;
+    top: 45px;
+    left: 15px;
+    background-color: black; 
+}
+
+.slideshow {
+    position: absolute;
+    height: 420px;
+    background: white;
+    width: 100vw;
+    top: 733px;
+    z-index: 0;
+}
+.left {
+    position: absolute;
+    top: 900px;
+    left: 25px;
+}
+.right {
+    position: absolute;
+    top: 900px;
+    right: 60px;
+}
+.horiz-ctn3 {
+    height: 80px;
+    width: 100vw;
+    top: 1138px;
+    position: absolute;
+    background-color: #a46bff;
+}
+.horiz-ctn4 {
+    height: 480px;
+    width: 100vw;
+    top: 1216px;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-stars {
+    position: absolute;
+    top: 1184px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    z-index: 1;
+}
+.ctn-stars {
+    background: #dadada;
+    padding: 10px;
+}
+.main-stars:hover {
+    filter: none;
+}
+.product {
+    height: 300px;
+    width: 245px;
+    background: #00cf0d;
+}
+.product-desc {
+    width: 245px;
+    height: 10px;
+    background: #00cf0d;
+    margin: 10px 0;
+}
+.horiz-ctn5 {
+    height: 80px;
+    width: 100vw;
+    top: 1655px;
+    position: absolute;
+    background-color: #a1058c;
+}
+
+.footer {
+    position: sticky;
+    top: 1700px;
+    background-color: #828282;
+    height: 520px;
+    width: 100vw;
+    overscroll-behavior: contain;
+
+}
+.footer-up {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+.footer:hover, .footer-up:hover, .ctn-footer:hover, .newsletter:hover, .socials:hover, .menu-hover {
+    filter: none;
+}
+.footer-title {
+    height: 50px;
+    width: 245px;
+    background: white;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.footer-sub-1 {
+    width: 245px;
+    height: 10px;
+    background: #a491a2;
+    margin: 20px 0;
+ 
+}
+.footer-sub-2 {
+    width: 200px;
+    height: 10px;
+    background: white;
+    margin: 20px 0;
+}
+.footer-sub-3 {
+    width: 230px;
+    height: 10px;
+    background: white;
+    margin: 20px 0;
+}
+.newsletter {
+    position: absolute;
+    top: 440px;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.email {
+    width: 350px;
+    background: white;
+    height: 40px;
+
+}
+.submit {
+    height: 40px;
+    width: 40px;
+    background: white;
+    margin-left: 20px;
+}
+.socials {
+    position: absolute;
+    top: 440px;
+    right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.social {
+    height: 40px;
+    width: 40px;
+    background: white;
+    margin-right: 20px;
+}
+.mobile {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 764px)
+{
+    .mobile {
+        display: block;
+        position: fixed;
+        top: 10px;
+        background: white;
+        padding: 10px;
+        left: 0;
+        right: 0;
+        width: 90vw;
+        height: 89vh;
+        margin: 15px;
+        font-size: 40px;
+        }
+        .main {
+            z-index: -1;
+            position: fixed;
+        }
+}
