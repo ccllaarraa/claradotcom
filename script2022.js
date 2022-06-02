@@ -33,6 +33,7 @@ $(document).ready(function() {
 
 
 // lazy load
+
 document.addEventListener("DOMContentLoaded", function() {
     var lazyloadImages;    
   

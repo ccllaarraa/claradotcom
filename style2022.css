@@ -65,7 +65,7 @@ header .add {
 }
 
 .menu {
-    width: auto;
+    width: 353px;
     background: white;
     padding: 15px;
     margin: 0 20px 0px 20px;
@@ -123,6 +123,7 @@ header .add {
     text-align: left;
     border-top: 20px solid #ededed;
     border: 1px solid rgb(255, 0, 0);
+    max-width: 760px;
 }
 
 #coming .title {
@@ -176,7 +177,6 @@ header .add {
     flex-direction: column;
     text-align: left;
     border-top: 20px solid #ededed;
-    margin-bottom: 30px;
     border: 1px solid rgb(5, 164, 0);
 }
 #previous .title {
@@ -403,8 +403,21 @@ header .add {
 }.old-web {
     margin-left: 0;
 }
-#previous , .menu, #coming{
-    margin: 0;
+.menu {
+    width: auto;
+}
+ #previous , #coming, #about, #coming{
+    margin: 0 10px;
+} 
+header {
+ margin: 10px;
+}
+.menu {
+    margin: 10px 10px 0 10px;
+}
+
+#footer {
+    margin: 0 10px 10px 10px;
 }
 
   /* end responsive */
