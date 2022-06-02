@@ -95,7 +95,9 @@ header .add {
     border: 1px solid rgb(157, 0, 255);
 }
 
-
+#about a {
+color: rgb(176, 107, 225);
+}
 #about .title {
     display: flex;
     padding: 15px;
@@ -340,6 +342,13 @@ header .add {
 .footer-helpful i {
     font-size: 10px;
     color: #25d9d9;
+}
+.footer-font {
+    padding: 15px;
+    border-top: 1px solid rgb(167, 225, 250);
+}
+.footer-font a {
+    color: #14a9db;
 }
 /* mobile fuck ipads */
   @media only screen and (max-width: 767px) {
