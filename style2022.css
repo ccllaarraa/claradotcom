@@ -2,6 +2,7 @@ body {
   
     font-family: 'Delius', cursive;
    background-color: #afc449;
+   background-color: #b8eaff;
     margin: 0;
     padding: 0 175px;
     text-align: center;
@@ -127,7 +128,7 @@ color: rgb(176, 107, 225);
     text-align: left;
     border-top: 20px solid #ededed;
     border: 1px solid rgb(255, 0, 0);
-    max-width: 760px;
+    max-width: 814px;
 }
 
 #coming .title {
@@ -169,7 +170,10 @@ color: rgb(176, 107, 225);
     background: #e5d076;
     margin: 10px 0 0 0;
 }
-
+#coming img {
+    padding-top: 15px;
+    max-width: 200px;
+}
 
 #previous {
     background: white;
@@ -259,6 +263,8 @@ color: rgb(176, 107, 225);
     max-height: 401px;
     margin-left: 25px;
 }
+
+
 .fondante {
     max-height: 250px;
 }
