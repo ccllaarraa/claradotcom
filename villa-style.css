@@ -67,3 +67,24 @@ body {
   a {
     color: white;
   }
+
+  .facade-droite {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    margin: 10px;
+  }
+
+  .fenetre {
+    font-family: 'lazen', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #5E1791;
+    width: 176px;
+    color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  }
