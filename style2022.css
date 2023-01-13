@@ -6,6 +6,7 @@ body {
    background-color: #c783d0;
    background-color:#2b9a51;
    background-color: #f86e25;
+   background-color: #9744ce;
     margin: 0;
     padding: 0 175px;
     text-align: center;
@@ -36,6 +37,23 @@ a:hover {
 }
 a {
     cursor: pointer !important;
+}
+.intro {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    font-size: 12px;
+    text-align: left;
+    background: #55b156;
+    left: 0;
+    color: #654201;
+    padding: 5px;
+    font-family: monospace;
+    /* pointer-events: none; */
+    width: 100%;
+}
+.intro a {
+    color: #392501;
 }
 .star {
     padding: 0 5px;
@@ -366,6 +384,10 @@ color: rgb(176, 107, 225);
 }
 /* mobile fuck ipads */
   @media only screen and (max-width: 767px) {
+    .intro {
+        font-size: 10px;
+        padding: 5px;
+    }
     iframe {
         max-width: 90vw;
     max-height: 200px;
