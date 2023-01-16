@@ -38,6 +38,95 @@ a:hover {
 a {
     cursor: pointer !important;
 }
+/* clock css */
+.brokenwatch {
+    width: 400px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 10;
+}
+
+.clock {
+    border-radius: 100%;
+    background: transparent;
+    font-family: "Montserrat";
+    border: none;
+    box-shadow: inset 2px 3px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrap {
+    overflow: hidden;
+    position: fixed;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    transform: rotate(65deg);
+    z-index: 11;
+    top: -40px;
+    right: 40px;
+
+  }
+  
+  .minute,
+  #hour {
+    position: absolute;
+    height: 50px;
+    width: 6px;
+    margin: auto;
+    top: -16%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    transform-origin: bottom center;
+    transform: rotate(0deg);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+  
+  .minute {
+    position: absolute;
+    height: 60px;
+    width: 4px;
+    top: -13%;
+    left: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    transform: rotate(90deg);
+  }
+  
+  .second {
+    position: absolute;
+    height: 70px;
+    width: 2px;
+    margin: auto;
+    top: -20%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 4px;
+    background: #FF4B3E;
+    transform-origin: bottom center;
+    transform: rotate(180deg);
+    z-index: 1;
+  }
+  
+  .dot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    background: white;
+    border: 2px solid #1b1b1b;
+    border-radius: 100px;
+    margin: auto;
+    z-index: 1;
+  }
+/* end clock css */
 .intro {
     position: fixed;
     z-index: 10;
@@ -384,6 +473,9 @@ color: rgb(176, 107, 225);
 }
 /* mobile fuck ipads */
   @media only screen and (max-width: 767px) {
+    .watch {
+        display: none;
+    }
     .intro {
         font-size: 10px;
         padding: 5px;
