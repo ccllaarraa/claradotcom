@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccllaarraa/clarisa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccllaarraa/clarisa/issues"
+  },
+  "homepage": "https://github.com/ccllaarraa/clarisa#readme",
+  "dependencies": {
+    "three-dots": "^0.2.0"
+  }
+}

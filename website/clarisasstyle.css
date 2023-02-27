@@ -1,0 +1,22 @@
+body {
+    background: #e99bff;
+}
+
+.archive {
+    max-width: 500px;
+    font-size: 22px;
+    margin: 30px auto;
+}
+
+.title {
+    color: #ff022a;
+}
+
+a {
+    color: yellow;
+}
+
+
+.def {
+    color: #1c51d8;
+}

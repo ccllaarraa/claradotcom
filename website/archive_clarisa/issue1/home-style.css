@@ -1,0 +1,181 @@
+body {
+   background-color:  #fb00ff;
+   animation: mymove 15s infinite;
+}
+@keyframes mymove {
+    0% {
+        background: #fb00ff;
+      }
+      25% {
+        background: #d4ff39;
+      }
+      50% {
+        background: #338b07;
+      }
+      75% {
+        background: #2a18f9;
+      }
+      100% {
+        background: #fb00ff;
+      }
+  }
+
+.home-new {
+    margin: 28px 0;
+}
+.home-new span {
+    padding: 0 15px;
+}
+.logo2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 900px;
+    margin-top: 200px;
+}
+form {
+    margin: auto;
+    margin-top: 20px;
+}
+.logo2 img {
+    margin: auto;
+    width: 610px;
+}
+.logo2 input {
+    background: #44fdff;
+    border: none;
+    font-family: inherit;
+    color: #ae34af;
+}
+.open {
+    font-size: 45px;
+    text-align: center;
+    color: #4aedff;
+    animation: mymove2 15s infinite;
+  
+}
+@keyframes mymove2 {
+    0% {
+        color: #fd99fe;
+      }
+      25% {
+        color: #e18514;
+      }
+      50% {
+        color: #b6f199;
+      }
+      75% {
+        color: #a29bf6;
+      }
+      100% {
+        color: #fd99fe;
+      }
+  }
+.spam {
+    font-size: 14px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: #b3ab3c;
+}
+
+.ok1 {
+ font-size: 20px;
+}
+.ok2 {
+    font-size: 30px;
+   }
+   .ok3 {
+    font-size: 40px;
+   }
+   .ok4 {
+    font-size: 50px;
+   }
+   .ok5 {
+    font-size: 60px;
+   }
+ h1 {
+    font-size: 65px;
+    color: #8e0c8f;
+    padding: 0 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+ .home-intro {
+    font-size: 35px;
+    padding: 30px 15px;
+    color: #4500b0;
+    line-height: 50px;
+ }
+.home-video iframe {
+    border-width: 5px;
+    margin: 15px;
+}
+
+.heart-button {
+    width: 50px;
+    height: 50px;
+    color: pink;
+}
+
+.heart-btn input {
+    width: 100px;
+    padding: 70px 5px;
+}
+.news-ctn {
+    border: 1px solid;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 50px;
+    max-width: 420px;
+}
+
+@media only screen and (max-width: 700px) {
+    .home-new span a {
+        font-size: 24px;
+    }
+    .home-intro {
+        font-size: 24px;
+        padding: 30px 15px;
+        color: #4500b0;
+        line-height: 30px;
+    }
+    .home-video iframe {
+        width: 92vw;
+    height: auto;
+    margin: 0;
+}.spam {
+    font-size: 24px;
+} input:first-of-type {
+    width: 70vw;
+    height: 30px;
+} input {
+    width: 50px;
+    height: 32px;
+    font-size: 14px;
+    margin-top: 16px;
+}
+.logo2 img {
+    margin: auto;
+    width: 300px;
+}
+.open {
+    font-size: 25px;
+}.spam {
+    font-size: 14px;
+}
+.logo2 {
+    width: 300px;
+    margin-top: 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
