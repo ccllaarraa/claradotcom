@@ -41,7 +41,7 @@ a {
 }
 /* clock css */
 .brokenwatch {
-    width: 400px;
+    width: 190px;
     position: fixed;
     right: 10px;
     top: 10px;
@@ -59,13 +59,13 @@ a {
   .wrap {
     overflow: hidden;
     position: fixed;
-    width: 350px;
+    width: 190px;
     height: 350px;
     border-radius: 100%;
     transform: rotate(65deg);
     z-index: 11;
-    top: -40px;
-    right: 40px;
+    top: -76px;
+    right: 8px;
 
   }
   
@@ -341,7 +341,7 @@ color: rgb(176, 107, 225);
  #previous .div1 .project .project-txt {
     padding: 0 15px 15px 15px;
     width: 52vw;
-    font-size: 12px;
+    font-size: 15px;
 
  }
  #previous .div1 .project .project-imgs .project-img img {
