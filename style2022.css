@@ -8,6 +8,7 @@ body {
    background-color: #f86e25;
    background-color: #9744ce;
    background-color: #a09555;
+   background-color: #54aa6c;
     margin: 0;
     padding: 0 175px;
     text-align: center;
@@ -474,7 +475,8 @@ color: rgb(176, 107, 225);
 }
 /* mobile fuck ipads */
   @media only screen and (max-width: 767px) {
-    .watch {
+    
+    .intro, .watch {
         display: none;
     }
     .intro {
