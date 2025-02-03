@@ -1,6 +1,5 @@
 body {
-  
-    font-family: 'Delius', cursive;
+   font-family: 'Delius', cursive;
    background-color: #afc449;
    background-color: #b8eaff;
    background-color: #c783d0;
@@ -10,13 +9,14 @@ body {
    background-color: #a09555;
    background-color: #54aa6c;
    background-color: #8f2626;
+   background-color: #ccefc8;
+
     margin: 0;
     padding: 0 175px;
     text-align: center;
     display: flex;
     flex-direction: column;
     font-size: 15px;
-   
 }
 body::-webkit-scrollbar {
     display: none;
