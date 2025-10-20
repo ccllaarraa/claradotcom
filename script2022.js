@@ -41,7 +41,7 @@ clock();
 function clock() {
     var date = new Date();
 
-  var hours = ((date.getHours() + 11) % 12 + 1);
+  var hours = ((date.getHours() + 12) % 12 + 1 );
   var minutes = date.getMinutes();
   var seconds = date.getSeconds();
   
