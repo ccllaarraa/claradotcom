@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ccllaarraa/claradotcom/issues"
   },
-  "homepage": "https://github.com/ccllaarraa/claradotcom#readme"
+  "homepage": "https://github.com/ccllaarraa/claradotcom#readme",
+  "engines": {
+    "node": ">=18"
+  }
 }
